@@ -3,10 +3,11 @@ const driver = {
 };
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  debugger;
-  // const newDriver = {...driver};
-  // newDriver[key] = value;
-  // return newDriver;
+
+
+  const newDriver = {...driver};
+  newDriver[key] = value;
+  return newDriver;
 }
 
 
@@ -14,4 +15,5 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 //   driver[key] = value;
 //   return driver;
 // }
+
 
